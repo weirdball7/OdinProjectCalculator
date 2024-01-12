@@ -1,0 +1,50 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+.calculator-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    background-color: aqua;
+}
+.calculator-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+    background-color: aquamarine;
+}
+.screen{
+    width: 95%;
+    height: 15%;
+    background-color: antiquewhite;
+}
+.keypad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+    background-color: azure;
+}
+.numbers-container{
+    width: 80%;
+    height: 100%;
+    background-color: blue;
+}
+
+.operations-container{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(2, 82, 47);
+}
