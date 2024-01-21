@@ -17,14 +17,44 @@
 
       <div class="calculator-container">
         <div class="calculator-body">
-          <div class="screen"></div>
-          <br />
-          <div class="keypad">
-            <div class="numbers-container"></div>
-            <div class="operations-container"></div>
-          </div>
+          <form action="" class="form1">
+            <div class="screen"></div>
+            <br />
+            <div class="keypad">
+              <div class="numbers-container">
+                <div class="number-row">
+                  <input type="button" id="number" class="number" value="1"></input>
+                  <input type="button" id="number" class="number" value="2"></input>
+                  <input type="button" id="number" class="number" value="3"></input>
+                </div>
+                <div class="number-row">
+                  <input type="button" id="number" class="number" value="4"></input>
+                  <input type="button" id="number" class="number" value="5"></input>
+                  <input type="button" id="number" class="number" value="6"></input>
+                </div>
+                <div class="number-row">
+                  <input type="button" id="number" class="number" value="7"></input>
+                  <input type="button" id="number" class="number" value="8"></input>
+                  <input type="button" id="number" class="number" value="9"></input>
+                </div>
+                <div class="number-row">
+                  <input type="button" id="number" class="number" value="0"></input>
+                  <input type="button" id="number" class="dot" value="."></input>
+                  <input type="button" id="equal" value="="></input>
+                </div>
+              </div>
+              <div class="operations-container">
+                <input type="button" class="operator" value="x"></input>
+                <input type="button" class="operator" value="%"></input>
+                <input type="button" class="operator" value="-"></input>
+                <input type="button" class="operator" value="+"></input>
+                <input type="button" class="operator" value="C"></input>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </main>
+    <script src="./main.js"></script>
   </body>
 </html>

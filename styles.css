@@ -13,7 +13,7 @@ main{
     align-items: center;
     height: 80%;
     width: 90%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .calculator-body{
     display: flex;
@@ -22,29 +22,58 @@ main{
     align-items: center;
     width: 80%;
     height: 90%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .screen{
-    width: 95%;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    width: 50%;
     height: 15%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 .keypad{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95%;
-    height: 95%;
-    background-color: azure;
+    width: 70%;
+    height: 70%;
+    /* background-color: azure; */
 }
 .numbers-container{
-    width: 80%;
-    height: 100%;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    /* background-color: blue; */
 }
 
 .operations-container{
+    display: flex;
+    flex-direction: column;
     width: 20%;
-    height: 100%;
+    height: 56%;
     background-color: rgb(2, 82, 47);
 }
+.number-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.operations-container > button {
+    height: 60%;
+    width: 100%;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+}
+
